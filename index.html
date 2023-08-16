@@ -3,9 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First WEbsite</title>
+    <link rel="icon" type="images/png" href="images/favicon.png" />
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <section class="header">
+      <header style="background: mediumpurple">
+        <h1>Welcome to my Website</h1>
+        <div class="links">
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Products</a>
+          <a href="">Contact us</a>
+        </div>
+
+        <hr />
+      </header>
+    </section>
+
+    <section class="img">
+      <h1>woof woof</h1>
+
+      <img src="images/1.jpng" />
+      <img src="images/dog-funny.gif" />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Voluptate
+        quam molestias dolore adipisci recusandae nulla labore nisi asperiores
+        iusto quisquam, incidunt odio placeat deserunt quod repellendus optio
+        maiores ab rem?
+      </p>
+    </section>
+
     <a href="https://www.youtube.com/ " target="_blank">Click Me</a>
 
     <br />
@@ -15,28 +45,194 @@
     <a href="mailto:rugurujacqueline651@gmail.com">Email me</a>
 
     <br />
-    <img src="images/1.jpng" />
-    <h1>woof woof</h1>
 
-    <br />
-    <img src="images/dog-funny.gif" />
-
-    <h1>This is an h1 heading</h1>
-    <h2>This is an h2 heading</h2>
-    <h3>This is an h3 heading</h3>
-    <h4>This is an h4 heading</h4>
-    <h5>This is an h5 heading</h5>
+    <h1><span style="background-color: tomato">This is a span title</span></h1>
+    <h1><div style="background-color: skyblue">This is a div title</div></h1>
     <hr />
     <br />
 
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ipsa, sit
-      veritatis tenetur consequuntur temporibus facilis sapiente vel
-      perspiciatis blanditiis commodi quibusdam qui deleniti distinctio ipsam?
-      Illo error odio est.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      <span style="background-color: tomato"
+        >Atque ipsa, sit veritatis tenetur consequuntur temporibus facilis
+        sapiente vel perspiciatis blanditiis commodi quibusdam qui deleniti
+        distinctio ipsam? Illo error odio est.</span
+      >
     </p>
-
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <span style="background-color: skyblue"
+        >Atque ipsa, sit veritatis tenetur consequuntur temporibus facilis
+        sapiente vel perspiciatis blanditiis commodi quibusdam qui deleniti
+        distinctio ipsam? Illo error odio est.</span
+      >
+    </p>
+    <p>This is a normal text</p>
+    <p>This is a <b>bold</b> text</p>
+    <p>This is a <i>italic</i> text</p>
+    <p>This is a <u>underline</u> text</p>
+    <p>This is a <del>deleted</del> text</p>
+    <p>This is a <big>big</big> text</p>
+    <p>This is a <sub>subscript</sub> text</p>
+    <p>This is a <sup>superscript</sup> text</p>
+    <p>This is a <tt>monospaced</tt> text</p>
+    <p>This is a <mark>normal</mark> text</p>
     <!-----This is a comment-->
+    <!---unordered list-->
+    <h4>Groceries</h4>
+    <ul>
+      <li>milk</li>
+      <li>eggs</li>
+      <li>bread</li>
+      <li>coffee supplies</li>
+      <ul>
+        <li>coffee beans</li>
+        <li>creamer</li>
+        <li>sugar</li>
+      </ul>
+    </ul>
+
+    <!-----order list-->
+    <h4>To do list</h4>
+    <ol>
+      <li>eat breakfast</li>
+      <li>go to class</li>
+      <li>walk dog</li>
+      <li>work</li>
+    </ol>
+
+    <!---Description-->
     <br />
+    <h4>Mythical creatures</h4>
+    <dl style="background-color: lightgreen">
+      <dt>dragon</dt>
+      <dd>
+        a mythical monster resembling a giant reptile, sometimes shown as having
+        wings
+      </dd>
+      <dt>phoenix</dt>
+
+      <dd>
+        a unique bird that lived for five or six centuries in the Arabian
+        desert, after this time burning itself on a funeral pyre and rising from
+        the ashes with renewed youth to live through another cycle.
+      </dd>
+      <dt>vampire</dt>
+
+      <dd>
+        corpse supposed to leave its grave at night to drink the blood of the
+        living by biting their necks with long pointed canine teeth.
+      </dd>
+      <dt>warewolf</dt>
+      <dd>
+        a person who changes for periods of time into a wolf, typically when
+        there is a full moon.
+      </dd>
+    </dl>
+    <h3>Store Hours</h3>
+
+    <table border="1" style="background-color: black">
+      <tr align="center" style="background-color: lightblue">
+        <th width="100">Sunday</th>
+        <th width="100">Monday</th>
+        <th width="100">Tuesday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturday</th>
+      </tr>
+      <tr align="center" style="background-color: aliceblue">
+        <td>Closed</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>10-2</td>
+      </tr>
+    </table>
+    <a href="https://google.com">
+      <br />
+
+      <button
+        style="
+          font-size: 25px;
+          background-color: grey;
+          color: lightblue;
+          border-radius: 25px;
+        "
+      >
+        Click me
+      </button>
+
+      <br />
+      <br />
+    </a>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+      <label for="username">username:</label>
+      <input type="text" id="username" placeholder="spongebob" required />
+      <br />
+      <br />
+
+      <label for="password">password:</label>
+      <input type="password" id="password" /> <br />
+      <br />
+
+      <label for="email">email:</label>
+      <input type="email" id="email" placeholder="ssquarepants@gmail.com" />
+      <br />
+      <br />
+
+      <label for="phone">phone #</label>
+      <input type="tel" id="phone" placeholder="123-456-789" /><br />
+      <br />
+
+      <label for="bday">birthdate:</label>
+      <input type="date" id="bday" /><br /><br />
+
+      <label for="quantity">quantity:</label>
+      <input type="number" id="quantity" /><br />
+      <br />
+
+      <label for="title">title:</label>
+
+      <label for="Mr.">Mr</label>
+      <input type="radio" id="Mr" value="Mr." name="title" />
+      <label for="Mr.">Mr</label>
+      <input type="radio" id="Ms" value="Ms." name="title" />
+      <label for="Mr.">Mr</label>
+      <input type="radio" id="PhD" value="PhD." name="title" /><br />
+      <br />
+
+      <label for="payment">payment</label>
+      <select id="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="subscribe">subscribe</label>
+      <input type="checkbox" id="subscribe" /><br />
+
+      <label for="comment">comment:</label>
+      <textarea id="comment" cols="25" rows="3"></textarea><br />
+      <br />
+
+      <label for="file">file:</label>
+      <input type="file" id="file" accept="image/png, image/jpeg" /><br />
+      <br />
+
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+
+    <footer>
+      <hr />
+      author: Jacques <br />
+      &copy; copyright reserved <br />
+      <small><a href="rugurujaqueline.com">Jacques.com</a></small>
+    </footer>
   </body>
 </html>

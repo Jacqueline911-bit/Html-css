@@ -1,0 +1,16 @@
+   
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.header {
+    text-align: center;
+    text-shadow: 2%;
+}
+.links {
+    justify-content: space-between;
+    display: flex;
+    flex-basis: 5%;
+}
